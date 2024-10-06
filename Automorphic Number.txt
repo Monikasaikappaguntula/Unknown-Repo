@@ -1,0 +1,7 @@
+n=int(input())
+t=str(n)
+k=str(n*n)
+if t in k:
+    print("Automorphic Number")
+else:
+    print("Not an Automorphic Number")
